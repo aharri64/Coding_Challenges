@@ -2,7 +2,7 @@
  * @param {number} x
  * @return {boolean}
  */
-var isPalindrome = function (x) {
+var isPalindrome = (x) => {
 // METHOD 1
 //     let reversed = x.toString().split('').reverse().join();
 //     return (x.toString() === reversed)
@@ -17,3 +17,5 @@ var isPalindrome = function (x) {
     return(reversedStr === xStr)
 
 };
+
+isPalindrome(343);
