@@ -25,7 +25,7 @@ var romanToInt = function(s) {
 
         // 9. When we reach then end of our number, we need to end the loop
         if (nextInt) {
-            // 5. Se if our current integer is greater than or equal to the next integer
+            // 5. See if our current integer is greater than or equal to the next integer
             if (currentInt >= nextInt) {
                 // 6. If it is, add the total to the current integer
                 total += currentInt;
