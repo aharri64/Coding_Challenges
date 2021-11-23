@@ -8,7 +8,7 @@
     let brackets = {
         '(': ')',
         '[': ']',
-        '{': '}
+        '{': '}'
     }
 
     //create the heap
